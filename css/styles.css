@@ -121,10 +121,21 @@ body {
   
   p {
     color: #666;
+    margin: 0.9rem 0;
   }
 
 
 
+  .preguntas-respuestas {
+    margin: 2rem;
+}
 
+h2 {
+    text-align: center;
+}
+
+article {
+    margin-bottom: 2rem;
+}
 
 
