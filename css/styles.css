@@ -33,18 +33,30 @@ main {
 }
 
 
-.contenedor {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+
+section {
   padding: 20px;
-  background-color: #a0eca6;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra para los bloques */
 }
 
 .quienes-somos {
-  flex: 1;
-  padding-right: 20px;
+  background-color: #5cc190; /* Tono de verde para "Quienes Somos" */
 }
+
+.nuestra-historia {
+  background-color: #46a975; /* Tono de verde más oscuro para "Nuestra Historia" */
+}
+
+section h2 {
+  border-bottom: 2px solid #2ecc71; /* Color de borde inferior para los títulos de las secciones */
+  padding-bottom: 10px;
+}
+
+
+
+
 
 .container{
     width: 75vw;
