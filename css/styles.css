@@ -1,6 +1,6 @@
 nav ul li a:hover {
-  background-color: #a0eca6;
-  color: #fff;
+  background-color: #344e41;
+  color: #344e41;
 }
 
 main {
@@ -23,11 +23,6 @@ main {
   padding-bottom: 10px;
 }
 
-.consejos ul {
-  list-style: none;
-  padding-left: 20px;
-}
-
 section {
   padding: 20px;
   margin-bottom: 20px;
@@ -36,16 +31,23 @@ section {
 }
 
 .quienes-somos {
-  background-color: #5cc190;
+  background-color: #588157;
 }
 
 .nuestra-historia {
-  background-color: #46a975;
+  background-color: #588157;
 }
 
 section h2 {
   border-bottom: 2px solid #2ecc71;
   padding-bottom: 10px;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
 }
 
 .container {
@@ -126,6 +128,11 @@ body {
   margin: 0.9rem 0;
 }
 
+.proyecto {
+  background-color: #344e41;
+  color: #fff;
+}
+
 .container-fotos {
   max-width: 1200px;
   margin: 0 auto;
@@ -170,4 +177,4 @@ body {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=styles.css.map */

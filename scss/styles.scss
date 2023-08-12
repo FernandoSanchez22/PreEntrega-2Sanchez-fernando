@@ -1,15 +1,14 @@
-
 $main-color: #2ecc71;
 $secondary-color: #5cc190;
 $dark-color: #46a975;
 $dark-text-color: #333;
 $light-text-color: #fff;
 $small-screen: 600px;
-
+$primary-color: lightgray;
 
 nav ul li a:hover {
-  background-color: #a0eca6;
-  color: #fff;
+    background-color:#344e41 ;
+  color:#344e41 ;
 }
 
 
@@ -36,10 +35,6 @@ main {
 }
 
 
-.consejos ul {
-  list-style: none;
-  padding-left: 20px;
-}
 
 
 section {
@@ -51,11 +46,11 @@ section {
 
 
 .quienes-somos {
-  background-color: #5cc190;
+  background-color: #588157;
 }
 
 .nuestra-historia {
-  background-color: #46a975;
+  background-color: #588157;
 }
 
 
@@ -64,6 +59,11 @@ section h2 {
   padding-bottom: 10px;
 }
 
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh; }
 
 .container {
   width: 75vw;
@@ -155,7 +155,10 @@ body {
     }
   }
 }
-
+.proyecto{
+  background-color: #344e41;
+  color: #fff;
+}
 
 .container-fotos {
   max-width: 1200px;
@@ -165,6 +168,7 @@ body {
   grid-template-rows: 250px;
   grid-gap: 20px;
   padding: 100px 0;
+
 
 
   .box img {
